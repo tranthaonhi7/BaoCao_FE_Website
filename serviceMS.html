@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPs</title>
+    <!-- main.css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- overlay -->
+        <section id="overlay"></section>
+        <!-- header -->
+        <header>
+            <div class="container">
+                <nav class="navbar">
+                    <!-- logo -->
+                    <div class="navbar__logo">
+                        <a href="index.html"><img src="img/logo.png" alt=""></a>
+                    </div>                
+                    <!-- link -->
+                        <!-- ul>li*4>a: trong thẻ ul có 4 thẻ li và a -->
+                    <ul class="navbar__links">
+                        <li class="navbar__link"><a href="index.html">Trang chủ</a></li>
+                        <li class="navbar__link"><a href="#">Dịch vụ</a>
+                            <ul class="navbar__link__service">
+                                <li><a href="servicetpsX.html">TPs MobileX</a></li>
+                                <li><a href="serviceIT.html">TPs IT Servies</a></li>
+                            </ul>
+                        </li>
+                        <li class="navbar__link"><a href="introduce.html">Giới thiệu</a></li>
+                        <li class="navbar__link"><a href="contact.html">Liên hệ</a></li>
+                        <a href="contact.html"><button class="navbar__btn">Yêu cầu tư vấn</button></a>
+                    </ul>
+                    <!-- button menu -->
+                    <div class="navbar__icons"> <!--cái menu trong mobile-->
+                        <div class="navbar__icon"> <!--1 cái gạch-->
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    
+        <!-- banner -->
+        <section id="banner"> <!--id chỉ được đặt 1 lần còn class bao nhiêu lần cũng được-->
+            <div class="container">
+                <!-- img -->
+                <div class="banner__img">
+                    <img style="margin-top:150px; margin-right:100px;" src="img/bannerMS.png" alt="">
+                </div>
+                <!-- heading -->
+                <div class="banner__heading">
+                    <h1 class="TPS">
+                        <span class="TPtext">MS</span>
+                    </h1>
+                    <h1>Mobile Support</h1>
+                    <p>MS - Dịch vụ cung cấp cho người dùng 1 hệ thống mạng Wifi với nhiều chức năng nâng cao 
+                        với số lượng người truy cập đồng thời lớn và nhiều kênh truyền dự phòng để đảm bảo hệ thống 
+                        có chất lượng ổn định cao. Gói dịch vụ Mobile Support MS phù hợp và được ưa chuộng nhất với các Doanh nghiệp, 
+                        Hộ kinh doanh,... có nhu cầu cao về đường truyền.</p>
+                    <a href="contact.html"><button class="banner__btn__lienhe">Liên hệ</button></a>
+                </div>
+            </div>
+        </section>
+        <!-- content -->
+        <div class="surviceMS__bar">
+            <h3>CÁC GÓI DỊCH VỤ</h3>
+        </div>
+<table>
+    <thead>
+      <tr class="header-row">
+        <th class="stt">STT</th>
+        <th>Tính năng</th>
+        <th>MS1</th>
+        <th>MS2</th>
+        <th>MS3</th>
+        <th>MS4</th>
+        <th>MS VIP</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="stt">1</td>
+        <td style="color: red; font-weight: 500;" class="td__left">Tốc độ internet
+          <i class="fas fa-bolt"></i>
+        </td>
+        <td>60 Mbps</td>
+        <td>80 Mbps</td>
+        <td>95 Mbps</td>
+        <td>120 Mbps</td>
+        <td>240 Mbps</td>
+      </tr>
+      <tr>
+        <td class="stt">2</td>
+        <td class="td__left">Đường truyền cáp quang</td>
+        <td>1 kênh</td>
+        <td>2 kênh</td>
+        <td>2 kênh</td>
+        <td>2 kênh </td>
+        <td>3 kênh</td>
+      </tr>
+      <tr>
+        <td class="stt">3</td>
+        <td class="td__left">Thiết bị vận hành</td>
+        <td>2</td>
+        <td>5</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td class="stt">4</td>
+        <td style="font-weight: 500; color: red;" class="td__left">Số lượng người dùng truy cập đồng thời
+          <i class="fas fa-users"></i>
+        </td>
+        <td>60</td>
+        <td>120</td>
+        <td>180</td>
+        <td>240</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td class="stt">5</td>
+        <td class="td__left">Số lượng mạng wifi tối đa</td>
+        <td>8</td>
+        <td>8</td>
+        <td>8</td>
+        <td>8</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td class="stt">6</td>
+        <td class="td__left">Ẩn mạng wifi</td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+      </tr>
+      <tr>
+        <td class="stt">7</td>
+        <td class="td__left">Giới hạn băng thông cho từng mạng wifi</td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+      </tr>
+      <tr>
+        <td class="stt">8</td>
+        <td class="td__left">Giới hạn băng thông cho từng client</td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+      </tr>
+      <tr>
+        <td class="stt">9</td>
+        <td class="td__left">Giới hạn thời gian kết nối</td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+      </tr>
+      <tr>
+        <td class="stt">10</td>
+        <td class="td__left">Khóa/Mở khóa người dùng</td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+      </tr>
+      <tr>
+        <td class="stt">11</td>
+        <td class="td__left">Chuyển vùng (Roaming)</td>
+        <td></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+      </tr>
+      <tr>
+        <td class="stt">12</td>
+        <td class="td__left">Chia tải cho các băng tần (Band steering)</td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+      </tr>
+      <tr>
+        <td class="stt">13</td>
+        <td class="td__left">Cân bằng tải giữa các AP (Load balance)</td>
+        <td></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+        <td><i class="fas fa-check"></i></td>
+      </tr>
+      <tr class="table__btn">
+        <td colspan="5"></td>
+        <td colspan="2"><a href="contact.html"><button class="surviceMS2__btn">Đăng ký ngay >></button></a></td>
+      </tr>
+      <!-- Thêm hàng khác tùy ý -->
+    </tbody>
+</table>
+  <!--content 2-->
+  <div class="content2ms__bar">
+    <h2>🎯 HỖ TRỢ </h2>
+</div>
+<div class="content2ms__it">
+    <div class="listms__item">
+        <div class="iconms-list">
+          <i class="fa-solid fa-rocket"></i>
+        </div>
+        <p>Tốc độ Internet cao </p>
+    </div>
+    <div class="listms__item">
+        <div class="iconms-list">
+          <i class="fa-solid fa-signal"></i>
+        </div>
+        <p>Chất lượng tín hiệu ổn định, không bị ảnh hưởng bởi thời tiết, chiều dài cáp…</p>
+    </div>
+    <div class="listms__item">
+        <div class="iconms-list">
+            <i class="fas fa-shield"></i>
+        </div>
+        <p>Thiết bị an toàn (không sợ sét đánh lan truyền trên đường dây)</p>
+    </div>
+    <div class="listms__item">
+        <div class="iconms-list">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+        <p>Đăng ký dễ dàng, tiện lợi qua tổng đài, trên website trực tuyến hoặc tại hệ thống các văn phòng giao dịch</p>
+    </div>
+    <div class="listms__item">
+        <div class="iconms-list">
+            <i class="fas fa-stopwatch"></i>
+        </div>
+        <p>Thời gian lắp đặt dịch vụ nhanh chóng, tối đa là 3-5 ngày</p>
+    </div>
+    <div class="listms__item">
+        <div class="iconms-list">
+          <i class="fa-solid fa-sack-dollar"></i>
+        </div>
+        <p>Quản lý cước rõ ràng</p>
+    </div>
+    <div class="listms__item">
+        <div class="iconms-list">
+          <i class="fa-solid fa-headphones"></i>
+        </div>
+        <p>Chăm sóc và hỗ trợ giải đáp khách hàng 24/7</p>
+    </div>
+    <div class="listms__item">
+        <div class="iconms-list">
+          <i class="fa-solid fa-arrow-up-wide-short"></i>
+        </div>
+        <p>Dễ dàng nâng cấp băng thông mà không cần kéo cáp mới</p>
+    </div>
+</div>
+      <!-- content: contact bar -->
+      <section id="contact__bar" >
+        <!-- heading -->
+        <h4>
+            Chúng tôi đã sẵn sàng để giúp bạn.
+        </h4>
+        <a href="contact.html"><button class="contact__bar__btn">Liên hệ chúng tôi</button></a>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="boxcenter">
+                <div class="boxfooter1">
+                    <img src="img/footerlogo.png" alt="">
+                </div>
+                <div class="boxfooter2">
+                    <h4>THÔNG TIN</h4>
+                    <p>Điện thoại:</p>
+                    <p style="color:#FB7400;">(84 - 236) 357 5788</p>
+                    <p>Email:</p>
+                    <p style="color:#FB7400;">support@tpsc.vn</p>
+                </div>
+                <div class="boxfooter5">
+                    <h4>ĐỊA CHỈ</h4>
+                    <p>Trụ sở chính</p>
+                    <p style="color:#FB7400;">26A, Đường 4F, Phường Tân Thuận Tây, Quận 7, Thành phố Hồ Chí Minh</p>
+                    <p>Văn phòng miền Trung</p>                   
+                    <p style="color:#FB7400;">49 Lê Quý Đôn, Q. Hải Châu, TP. Đà Nẵng</p>
+                </div>
+                <div class="boxfooter3">
+                    <h4>DỊCH VỤ</h4>
+                    <a href="servicetpsX.html" class="footer__link"><p class="p__link">TPs MobileX</p></a>
+                    <a href="serviceIT.html" class="footer__link"><p class="p__link">TPs IT Services</p></a>
+                </div>
+                <div class="boxfooter4">
+                    <h4>DANH MỤC</h4>
+                    <a href="index.html" class="footer__link"><p class="p__link">Trang chủ</p></a>
+                    <a href="#" class="footer__link"><p class="p__link">Dịch vụ</p></a>
+                    <a href="introduce.html" class="footer__link"><p class="p__link">Giới thiệu</p></a>
+                    <a href="contact.html" class="footer__link"><p class="p__link">Liên hệ</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="margin-top: 0;">
+            <p>Copyright © TPSC. All right Reserved</p>
+        </div>
+    </footer>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/7e01babe44.js" crossorigin="anonymous"></script>
+    <!-- main.js -->
+   <script src="./js/main.js"></script> 
+</body>
+</html>

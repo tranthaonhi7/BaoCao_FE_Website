@@ -1,0 +1,422 @@
+<!DOCTYPE html>     <!-- note = ctrl+/ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPs</title>
+    <!-- main.css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <!-- logo -->
+                <div class="navbar__logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>                
+                <!-- link -->
+                    <!-- ul>li*4>a: trong thẻ ul có 4 thẻ li và a -->
+                <ul class="navbar__links">
+                    <li class="navbar__link"><a href="index.html">Trang chủ</a></li>
+                    <li class="navbar__link"><a href="#">Dịch vụ</a>
+                        <ul class="navbar__link__service">
+                            <li><a href="servicetpsX.html">TPs MobileX</a></li>
+                            <li><a href="serviceIT.html">TPs IT Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar__link"><a href="introduce.html">Giới thiệu</a></li>
+                    <li class="navbar__link"><a href="contact.html">Liên hệ</a></li>
+                    <a href="contact.html"><button class="navbar__btn">Yêu cầu tư vấn</button></a>
+                </ul>
+                <!-- button menu -->
+                <div class="navbar__icons"> <!--cái menu trong mobile-->
+                    <div class="navbar__icon"> <!--1 cái gạch-->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <section id="banner"> <!--id chỉ được đặt 1 lần còn class bao nhiêu lần cũng được-->
+        <div class="container">
+            <!-- img -->
+            <div class="banner__img">
+                <img style="margin-top:98px;margin-right: 50px ;height: 550px;width: 750px;" src="img/bannerMH.png" alt="">
+            </div>
+            <!-- heading -->
+            <div class="banner__heading">
+                <h1 class="TPS">
+                    <span class="TPtext">MH</span>
+                </h1>
+                <h1>Mobile Home</h1>
+                <p>MH - Là dịch vụ mạng MobiFiber của MobiFone sử dụng công nghệ NGPON và XGSPON hiện đại nhất mang 
+                    đến tốc độ đường truyền ổn định, truy cập Internet tốc độ cao. Khách hàng hoàn toàn có thể 
+                    yên tâm với tốc độ truy cập vượt trội này. Hiện dịch vụ đã được triển khai ra nhiều tỉnh thành 
+                    và đang mở rộng ra cả nước.</p>
+                <a href="contact.html"><button class="banner__btn__lienhe">Liên hệ</button></a>
+            </div>
+        </div>
+    </section>
+
+        <!-- content: Service -->
+    <section id="serviceMH" >
+            <!-- heading -->
+            <h2>
+                <span class="text__red">MOBIFIBER </span></h2>
+            <h2>
+                <span class="text__blue">TRUY CẬP INTERNET </span>
+                <span class="text__red">TỐC ĐỘ CAO</span>
+            </h2>
+            <div class="serviceMH_row">
+                <div class="serviceMH_column">
+                    <img src="img/MHcliptv.png" alt="">
+                    <h2>
+                        <span class="text__red">Combo truyền hình Clip TV</span>
+                    </h2>
+                    <p>Truyền hình Clip TV với hơn 200 kênh trong nước và quốc tế. Có thể sử dụng đồng thời 2 thiết bị.</p>
+                </div>
+                <div class="serviceMH_column">
+                    <img src="img/MHinternet.png" alt="">
+                    <h2>
+                        <span class="text__blue">Internet cáp quang</span>
+                    </h2>
+                    <p>Kết nối không giới hạn dung lượng tốc độ cao trên các thiết bị như tivi, máy tính, điện thoại, camera... 
+                        Ưu đãi theo gói cước</p>
+                </div>
+            </div>
+        </section>
+    <!-- content -->
+    <div class="surviceMS__bar">
+        <h3>CÁC GÓI DỊCH VỤ</h3>
+    </div>
+    <div class="surviceMH">
+        <!-- frame MH1 -->
+        <div class="surviceMH__page">
+            <div>
+                <h1 class="surviceMH__text">
+                    <i class="fas fa-fire rotating-icon"></i>
+                    WIFI 1</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Tốc độ Internet: 100 Mbps</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 1 tháng</p>
+                </div>
+                <h1 class="surviceMH__text">6WIFI 1</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Gói 6 tháng ưu đãi và tiết kiệm</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Miễn phí thiết bị và lắp đặt</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Tặng ngay 2 tháng sử dụng</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 8 tháng</p>
+                </div>
+                    <!-- Các nội dung khác -->
+                <a href="contact.html"><button class="signup-btn">Đăng ký ngay ! >></button></a>
+            </div>
+        </div>
+        <!-- frame MH2 -->
+        <div class="surviceMH__page">
+            <div>
+                <h1 class="surviceMH__text">
+                    <i class="fas fa-fire rotating-icon"></i>
+                    WIFI 2
+                </h1> 
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Tốc độ Internet: 150 Mbps</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 1 tháng</p>
+                </div>
+                <h1 class="surviceMH__text">6WIFI 2
+                </h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Gói 6 tháng ưu đãi và tiết kiệm</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Miễn phí thiết bị và lắp đặt</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Tặng ngay 2 tháng sử dụng</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 8 tháng</p>
+                </div>
+                <a href="contact.html"><button class="signup-btn">Đăng ký ngay ! >></button></a>
+            </div>
+        </div>
+        <!-- frame MH3 -->
+        <div class="surviceMH__page">
+            <div>
+                <h1 class="surviceMH__text">WIFI 3</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Tốc độ Internet: 200 Mbps</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 1 tháng</p>
+                </div>
+                <h1 class="surviceMH__text">6WIFI 3</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Gói 6 tháng ưu đãi và tiết kiệm</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Miễn phí thiết bị và lắp đặt</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Tặng ngay 2 tháng sử dụng</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 8 tháng</p>
+                </div>
+                <a href="contact.html"><button class="signup-btn">Đăng ký ngay ! >></button></a>
+            </div>
+        </div>    
+        <!-- frame MH4 -->
+        <div class="surviceMH__page">
+            <div>
+                <h1 class="surviceMH__text">FIBER 1</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Tốc độ Internet: 40 Mbps</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 1 tháng</p>
+                </div>
+                <h1 class="surviceMH__text">6FIBER 1</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Gói 6 tháng ưu đãi và tiết kiệm</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Miễn phí thiết bị và lắp đặt</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Tặng ngay 1 tháng sử dụng</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 7 tháng</p>
+                </div>
+                <a href="contact.html"><button class="signup-btn">Đăng ký ngay ! >></button></a>
+            </div>
+        </div>
+    </div>
+    <div class="surviceMH">
+        <!-- frame MH5 -->
+        <div class="surviceMH__page">
+            <div>
+                <h1 class="surviceMH__text">FIBER 2</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Tốc độ Internet: 90 Mbps</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 1 tháng</p>
+                </div>
+                <h1 class="surviceMH__text">6FIBER 2</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Gói 6 tháng ưu đãi và tiết kiệm</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Miễn phí thiết bị và lắp đặt</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Tặng ngay 1 tháng sử dụng</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 7 tháng</p>
+                </div>
+                <a href="contact.html"><button class="signup-btn">Đăng ký ngay ! >></button></a>
+            </div>
+        </div>
+        <!-- frame MH6 -->
+        <div class="surviceMH__page">
+            <div>
+                <h1 class="surviceMH__text">FIBER 3</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Tốc độ Internet: 120 Mbps</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 1 tháng</p>
+                </div>
+                <h1 class="surviceMH__text">6FIBER 3</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Gói 6 tháng ưu đãi và tiết kiệm</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Miễn phí thiết bị và lắp đặt</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Tặng ngay 1 tháng sử dụng</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 7 tháng</p>
+                </div>
+                <a href="contact.html"><button class="signup-btn">Đăng ký ngay ! >></button></a>
+            </div>
+        </div>
+        <!-- frame MH7 -->
+        <div class="surviceMH__page">
+            <div>
+                <h1 class="surviceMH__text">FIBER 4</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Tốc độ Internet: 200 Mbps</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 1 tháng</p>
+                </div>
+                <h1 class="surviceMH__text">6FIBER 4</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Gói 6 tháng ưu đãi và tiết kiệm</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Miễn phí thiết bị và lắp đặt</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Tặng ngay 1 tháng sử dụng</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 7 tháng</p>
+                </div>
+                <a href="contact.html"><button class="signup-btn">Đăng ký ngay ! >></button></a>
+            </div>
+        </div>
+        <!-- frame MH8 -->
+        <div class="surviceMH__page">
+            <div>
+                <h1 class="surviceMH__text">
+                    <i class="fas fa-fire rotating-icon"></i>
+                    FIBER 5</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Tốc độ Internet: 250 Mbps</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 1 tháng</p>
+                </div>
+                <h1 class="surviceMH__text">6FIBER 5</h1>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Gói 6 tháng ưu đãi và tiết kiệm</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Miễn phí thiết bị và lắp đặt</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <p class="surviceMH__textred">Tặng ngay 1 tháng sử dụng</p>
+                </div>
+                <div class="surviceMH__text__p">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p>Chu kỳ sử dụng: 7 tháng</p>
+                </div>
+                <a href="contact.html"><button class="signup-btn">Đăng ký ngay ! >></button></a>
+            </div>
+        </div>
+    </div>
+    <!-- content: contact bar -->
+    <section id="contact__bar" >
+        <!-- heading -->
+        <h4>
+            Chúng tôi đã sẵn sàng để giúp bạn.
+        </h4>
+        <a href="contact.html"><button class="contact__bar__btn">Liên hệ chúng tôi</button></a>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="boxcenter">
+                <div class="boxfooter1">
+                    <img src="img/footerlogo.png" alt="">
+                </div>
+                <div class="boxfooter2">
+                    <h4>THÔNG TIN</h4>
+                    <p>Điện thoại:</p>
+                    <p style="color:#FB7400;">(84 - 236) 357 5788</p>
+                    <p>Email:</p>
+                    <p style="color:#FB7400;">support@tpsc.vn</p>
+                </div>
+                <div class="boxfooter5">
+                    <h4>ĐỊA CHỈ</h4>
+                    <p>Trụ sở chính</p>
+                    <p style="color:#FB7400;">26A, Đường 4F, Phường Tân Thuận Tây, Quận 7, Thành phố Hồ Chí Minh</p>
+                    <p>Văn phòng miền Trung</p>                   
+                    <p style="color:#FB7400;">49 Lê Quý Đôn, Q. Hải Châu, TP. Đà Nẵng</p>
+                </div>
+                <div class="boxfooter3">
+                    <h4>DỊCH VỤ</h4>
+                    <a href="servicetpsX.html" class="footer__link"><p class="p__link">TPs MobileX</p></a>
+                    <a href="serviceIT.html" class="footer__link"><p class="p__link">TPs IT Services</p></a>
+                </div>
+                <div class="boxfooter4">
+                    <h4>DANH MỤC</h4>
+                    <a href="index.html" class="footer__link"><p class="p__link">Trang chủ</p></a>
+                    <a href="#" class="footer__link"><p class="p__link">Dịch vụ</p></a>
+                    <a href="introduce.html" class="footer__link"><p class="p__link">Giới thiệu</p></a>
+                    <a href="contact.html" class="footer__link"><p class="p__link">Liên hệ</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="margin-top: 0;">
+            <p>Copyright © TPSC. All right Reserved</p>
+        </div>
+    </footer>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/7e01babe44.js" crossorigin="anonymous"></script>
+    <!-- main.js -->
+   <script src="./js/main.js"></script> 
+</body>
+</html>

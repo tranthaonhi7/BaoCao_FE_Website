@@ -1,0 +1,181 @@
+<!DOCTYPE html>     <!-- note = ctrl+/ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPs</title>
+    <!-- main.css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <!-- logo -->
+                <div class="navbar__logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>                
+                <!-- link -->
+                    <!-- ul>li*4>a: trong thẻ ul có 4 thẻ li và a -->
+                <ul class="navbar__links">
+                    <li class="navbar__link"><a href="index.html">Trang chủ</a></li>
+                    <li class="navbar__link"><a href="#">Dịch vụ</a>
+                        <ul class="navbar__link__service">
+                            <li><a href="servicetpsX.html">TPs MobileX</a></li>
+                            <li><a href="serviceIT.html">TPs IT Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar__link"><a href="introduce.html">Giới thiệu</a></li>
+                    <li class="navbar__link"><a href="contact.html">Liên hệ</a></li>
+                    <a href="#"><button class="navbar__btn">Yêu cầu tư vấn</button></a>
+                </ul>
+                <!-- button menu -->
+                <div class="navbar__icons"> <!--cái menu trong mobile-->
+                    <div class="navbar__icon"> <!--1 cái gạch-->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Start -->
+    <section id="contact">
+        <!-- Contact__heading_ThongTin -->
+        <div class="contact__heading__ThongTin">
+            <h2>-- Liên hệ chúng tôi --</h2>
+            <h1>Khi có bất kỳ câu hỏi nào!</h1>
+            <div class="row">
+                <div class="icon">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <div class="contact__text">
+                        <h3>Địa chỉ</h3>
+                        <p>49 Lê Quý Đôn, Q. Hải Châu, TP. Đà Nẵng</p>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-phone-alt"></i>
+                    <div class="contact__text">
+                        <h3>Điện thoại</h3>
+                        <p>(84 - 236) 357 5788</p>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="far fa-envelope"></i>
+                    <div class="contact__text">
+                        <h3>Email</h3>
+                        <p>support@tpsc.vn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Contact__DienThongTin -->
+        <div class="contact__DienThongTin">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="text">
+                        <span>HỌ TÊN</span>
+                        <SPan class="contact__sao">(*)</SPan>
+                    </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="text">CÔNG TY</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="phone">
+                        <span>SỐ ĐIỆN THOẠI</span>
+                        <span class="contact__sao">(*)</span>
+                    </label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">
+                        <span>EMAIL</span>
+                        <span class="contact__sao">(*)</span>
+                    </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">
+                        <span>ĐỊA CHỈ</span>
+                        <span class="contact__sao">(*)</span>
+                    </label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">
+                        <span>NỘI DUNG CẦN TƯ VẤN</span>
+                        <span class="contact__sao">(*)</span>
+                    </label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">GỬI</button>
+            </form>
+        </div>
+
+        <!-- ggmap -->
+        <div class="contact__ggmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.189151454631!2d108.21566466406699!3d16.05567134614982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219ced62e3a71%3A0x8143fc49cf220b88!2zNDkgTMOqIFF1w70gxJDDtG4sIELDrG5oIFRodeG6rW4sIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZyA1NTAwMDAsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1690261885200!5m2!1svi!2s"
+             width="100%" height="400px" style="border:0; margin-top: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+    <!-- Contact End -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="boxcenter">
+                <div class="boxfooter1">
+                    <img src="img/footerlogo.png" alt="">
+                </div>
+                <div class="boxfooter2">
+                    <h4>THÔNG TIN</h4>
+                    <p>Điện thoại:</p>
+                    <p style="color:#FB7400;">(84 - 236) 357 5788</p>
+                    <p>Email:</p>
+                    <p style="color:#FB7400;">support@tpsc.vn</p>
+                </div>
+                <div class="boxfooter5">
+                    <h4>ĐỊA CHỈ</h4>
+                    <p>Trụ sở chính</p>
+                    <p style="color:#FB7400;">26A, Đường 4F, Phường Tân Thuận Tây, Quận 7, Thành phố Hồ Chí Minh</p>
+                    <p>Văn phòng miền Trung</p>                   
+                    <p style="color:#FB7400;">49 Lê Quý Đôn, Q. Hải Châu, TP. Đà Nẵng</p>
+                </div>
+                <div class="boxfooter3">
+                    <h4>DỊCH VỤ</h4>
+                    <a href="servicetpsX.html" class="footer__link"><p class="p__link">TPs MobileX</p></a>
+                    <a href="serviceIT.html" class="footer__link"><p class="p__link">TPs IT Services</p></a>
+                </div>
+                <div class="boxfooter4">
+                    <h4>DANH MỤC</h4>
+                    <a href="index.html" class="footer__link"><p class="p__link">Trang chủ</p></a>
+                    <a href="#" class="footer__link"><p class="p__link">Dịch vụ</p></a>
+                    <a href="introduce.html" class="footer__link"><p class="p__link">Giới thiệu</p></a>
+                    <a href="contact.html" class="footer__link"><p class="p__link">Liên hệ</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="margin-top: 0;">
+            <p>Copyright © TPSC. All right Reserved</p>
+        </div>
+    </footer>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/7e01babe44.js" crossorigin="anonymous"></script>
+    <!-- main.js -->
+   <script src="./js/main.js"></script> 
+   <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+</body>
+</html>

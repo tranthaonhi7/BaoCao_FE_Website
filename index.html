@@ -1,0 +1,258 @@
+<!DOCTYPE html>     <!-- note = ctrl+/ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPs</title>
+    <!-- main.css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <!-- logo -->
+                <div class="navbar__logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>                
+                <!-- link -->
+                    <!-- ul>li*4>a: trong thẻ ul có 4 thẻ li và a -->
+                <ul class="navbar__links">
+                    <li class="navbar__link"><a href="index.html">Trang chủ</a></li>
+                    <li class="navbar__link"><a href="#">Dịch vụ</a>
+                        <ul class="navbar__link__service">
+                            <li><a href="servicetpsX.html">TPs MobileX</a></li>
+                            <li><a href="serviceIT.html">TPs IT Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar__link"><a href="introduce.html">Giới thiệu</a></li>
+                    <li class="navbar__link"><a href="contact.html">Liên hệ</a></li>
+                    <a href="contact.html"><button class="navbar__btn">Yêu cầu tư vấn</button></a>
+                </ul>
+                <!-- button menu -->
+                <div class="navbar__icons"> <!--cái menu trong mobile-->
+                    <div class="navbar__icon"> <!--1 cái gạch-->
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <section id="banner"> <!--id chỉ được đặt 1 lần còn class bao nhiêu lần cũng được-->
+        <div class="container">
+            <!-- img -->
+            <div class="banner__img">
+                <img src="img/tòa nhà.png" alt="">
+            </div>
+            <!-- heading -->
+            <div class="scroll-animation">
+                <div class="banner__heading">
+                    <h1 class="TPS">
+                        <span class="TPtext">TP</span><span class="stext">s</span>
+                    </h1>
+                    <h1>Viễn thông nâng tầm sức mạnh</h1>
+                    <p>Với đội ngũ chuyên gia có trình độ chuyên môn cao, 
+                        nhiều năm kinh nghiệm thực tế trong lĩnh vực viễn thông và CNTT,
+                        cùng sự tham gia của các kỹ sư trẻ đầy tâm huyết và sự đồng hành 
+                        của các đối tác quốc tế uy tín, TPs tập trung chuyên sâu vào nghiên
+                        cứu phát triển và tích hợp các giải pháp công nghệ cao giúp tận dụng 
+                        tối đa sức mạnh của viễn thông, CNTT và Internet vào tất cả các lĩnh vực kinh tế và cuộc sống.</p>
+                    <a href="introduce.html"><button class="banner__btn__xemthem">Xem thêm</button></a>
+                    <a href="contact.html"><button class="banner__btn__lienhe">Liên hệ</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- content: Service -->
+    <section id="survice" >
+        <div class="scroll-animation">
+            <!-- heading -->
+            <h2>
+                <span class="h2__1">Các</span>
+                <span class="h2__2">DỊCH VỤ</span>
+                <span class="h2__3">của chúng tôi</span>
+            </h2>
+            <p>
+                TPS cung cấp gói Dịch vụ tổng thể (One - stop - shop), tích hợp Viễn thông - 
+                CNTT. Với mục tiêu là mang đến sự thuận tiện trong quản lý đầu tư cho doanh nghiệp,
+                đồng thời đảm bảo sự ổn định, an toàn và hiệu quả cho hệ thống thông tin của khách
+                hàng. Dịch vụ tích hợp Viễn thông - CNTT của TPCOMS được triển khai nhanh chóng, phù 
+                hợp và tối ưu nhất, đáp ứng mọi nhu cầu doanh nghiệp về sản phẩm, dịch vụ, giải pháp 
+                IoT, viễn thông và CNTT.
+            </p>
+            <div class="image__container__wrapper">
+                <div class="image__container">
+                    <a href="servicetpsX.html">
+                    <img src="img/TPs MobileX.png" alt="">
+                    <div class="overlay__service">
+                        <p class="p__head">Dịch vụ giải pháp mạng</p>
+                        <p>TPsMobileX là dịch vụ cung cấp dịch vụ giải pháp trọn gói thiết bị CNTT,
+                            kênh truyền và giám sát với tốc độ truy cập cao. (click để xem thêm)</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="image__container">
+                    <a href="serviceIT.html">
+                    <img src="img/TPs_serviceIT.png" alt="">
+                    <div class="overlay__service">
+                        <p class="p__head">IT Services</p>
+                        <p>Tư vấn, cung cấp, Triển khai lắp đặt và vận hành Hệ thống thiết bị. Tư vấn, cung cấp, 
+                            Triển khai lắp đặt và vận hành Hệ thống thiết bị. (click để xem thêm)</p>
+                    </div>
+                    </a>
+                </div>
+                <div class="image__container">
+                    <a href="nhap.html">
+                    <img src="img/TPs other.png" alt="">
+                    <div class="overlay__service">
+                        <p class="p__head">Dịch vụ khác</p>
+                        <p>Chưa có dịch vụ nào</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!--số đếm-->
+    <div class="counter">
+        <div class="counter__item">
+          <span class="count" id="yearsCount">0</span>
+          <p>Năm kinh nghiệm</p>
+        </div>
+        <div class="counter__item">
+          <span class="count" id="citiesCount">0</span>
+          <p>Thành phố và tỉnh thành ở Việt Nam </p>
+        </div>
+        <div class="counter__item">
+          <span class="count" id="engineersCount">0</span>
+          <p>Kỹ sư nội bộ</p>
+        </div>
+      </div>
+
+    <!-- content: partner -->
+    <section id="partner" >
+        <div class="scroll-animation">
+                <!-- heading -->
+            <h2>
+                <span class="h2__1">ĐỐI TÁC</span>
+                <span class="h2__2">của chúng tôi</span>
+            </h2>
+            <div class="partner__colunm">
+                <div class="image__container__wrapper__partner">    
+                    <a href="https://www.cisco.com/"><img id="img1" src="img/hover_img1.png" alt=""></a>
+                    <a href="https://www.vtech.com/"><img id="img2" src="img/hover_img2.png" alt=""></a>               
+                    <a href="https://www.mobifone.vn/"><img id="img3" src="img/hover__img3.png" alt=""></a>
+                    <a href="http://ubiquiti.vn/"><img id="img4" src="img/hover_img4.png" alt=""></a>
+                    <a href="https://viettel.vn/"><img id="img5" src="img/hover_img5.png" alt=""></a>
+                    <a href="https://vnpt.com.vn/"><img id="img6" src="img/hover_img6.png" alt=""></a>
+                </div>
+                <div>
+                    <p class="partner__p">
+                        KÍNH GỬI QUÝ ĐỐI TÁC , </p>
+                    <p> Chân thành cảm ơn quý đối tác đã luôn ủng hộ và cùng hợp tác trong mọi dự án!
+                            Sự đóng góp và cam kết của bạn đã đóng vai trò quan trọng trong thành công của chúng tôi. 
+                            Hơn cả một đối tác kinh doanh, bạn là người bạn đồng hành đáng tin cậy. Hy vọng sẽ tiếp tục cùng 
+                            nhau xây dựng những chương trình thú vị và mang lại thành quả tốt đẹp trong tương lai. Xin chân thành 
+                            cảm ơn và mong tiếp tục hành trình đầy hứa hẹn này!
+                    </p>
+                    <a href="introduce.html"><button class="partner__btn">Xem thêm</button></a>
+                </div>
+            </div>
+        </div>
+
+    </section>   
+    <!-- content: Customer -->
+    <section id="customer">
+        <div class="scroll-animation">
+            <!-- heading -->
+            <h2>
+                <span class="h2__1">KHÁCH HÀNG</span>
+                <span class="h2__2">nói gì về chúng tôi</span>
+            </h2>
+            <div class="image__container__wrapper__customer">
+                <a href="https://thecupscoffee.vn/"><img src="img/1.png" alt=""></a>
+                <a href="http://thethaicuisine.vn/"><img src="img/2.png" alt=""></a>
+                <a href="https://portal.vietcombank.com.vn/"><img src="img/3.png" alt=""></a>
+                <a href="https://www.agribank.com.vn/"><img src="img/4.png" alt=""></a>
+                <a href="https://www.foster-electric.com/"><img src="img/5.png" alt=""></a>
+                <a href="https://www.globalagilitysolutions.com/"><img src="img/6.png" alt=""></a>
+                <a href="https://vietnam-fishing.com/"><img src="img/7.png" alt=""></a>
+                <a href="https://eastwestbrewing.vn/"><img src="img/8.png" alt=""></a>  
+            </div>
+            <p style="font-weight:400;">
+                Vì cũng hoạt động trong lĩnh vực viễn thông, chúng tôi thấu hiểu những nỗ lực của TPS 
+                trong việc cố gắng phát triển năng lực hạ tầng và công nghệ hiện đại để đáp ứng mọi nhu cầu của khách hàng.
+                Chúng tôi cảm nhận được giá trị mà TPS muốn tạo ra cho mỗi khách hàng bằng việc cung cấp dịch vụ tối ưu 
+                dựa trên sự thấu hiểu khách hàng. Chúng tôi đã lựa chọn gói dịch vụ với mức giá hợp lý và rất hài lòng về nó.
+                Chúng tôi mong chờ cho những lần hợp tác tiếp theo với TPS!
+            </p>
+            <p style="font-weight: 400;">
+                Chúng tôi chọn dịch vụ TPS vì dịch vụ được cung cấp trọn gói tiện nghi và sự tư vấn rất tận tình của nhân viên
+                kinh doanh. Dịch vụ được triển khai nhanh chóng và hoạt động ổn định như cam kết. Chúng tôi cũng nhận được các
+                hướng dẫn quản lý công việc rất chi tiết trước và trong khi sử dụng dịch vụ. Khi có vấn đề xảy ra, đội ngũ hỗ 
+                trợ sửa chữa rất kịp thời và không làm ảnh hưởng công việc. Chúng tôi đánh giá cao sự tận tâm trong dịch vụ chăm 
+                    sóc khách hàng của TPS và tin tưởng vào chất lượng dịch vụ tại đây!
+            </p>
+            <!--<a href="introduce.html"><button class="customer__btn">Xem thêm</button></a>-->
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="boxcenter">
+                <div class="boxfooter1">
+                    <img src="img/footerlogo.png" alt="">
+                </div>
+                <div class="boxfooter2">
+                    <h4>THÔNG TIN</h4>
+                    <p>Điện thoại:</p>
+                    <p style="color:#FB7400;">(84 - 236) 357 5788</p>
+                    <p>Email:</p>
+                    <p style="color:#FB7400;">support@tpsc.vn</p>
+                </div>
+                <div class="boxfooter5">
+                    <h4>ĐỊA CHỈ</h4>
+                    <p>Trụ sở chính</p>
+                    <p style="color:#FB7400;">26A, Đường 4F, Phường Tân Thuận Tây, Quận 7, Thành phố Hồ Chí Minh</p>
+                    <p>Văn phòng miền Trung</p>                   
+                    <p style="color:#FB7400;">49 Lê Quý Đôn, Q. Hải Châu, TP. Đà Nẵng</p>
+                </div>
+                <div class="boxfooter3">
+                    <h4>DỊCH VỤ</h4>
+                    <a href="servicetpsX.html" class="footer__link"><p class="p__link">TPs MobileX</p></a>
+                    <a href="serviceIT.html" class="footer__link"><p class="p__link">TPs IT Services</p></a>
+                </div>
+                <div class="boxfooter4">
+                    <h4>DANH MỤC</h4>
+                    <a href="index.html" class="footer__link"><p class="p__link">Trang chủ</p></a>
+                    <a href="#" class="footer__link"><p class="p__link">Dịch vụ</p></a>
+                    <a href="introduce.html" class="footer__link"><p class="p__link">Giới thiệu</p></a>
+                    <a href="contact.html" class="footer__link"><p class="p__link">Liên hệ</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="margin-top: 0;">
+            <p>Copyright © TPSC. All right Reserved</p>
+        </div>
+    </footer>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/7e01babe44.js" crossorigin="anonymous"></script>
+    <!-- main.js -->
+   <script src="./js/main.js"></script>
+</body>
+</html>
+
+
+  
